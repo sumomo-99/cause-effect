@@ -4,7 +4,7 @@ import {
   List,
 } from 'semantic-ui-react'
 import {useState} from 'react'
-import people from './data'
+import people from '../data'
 import Detail from '../components/Detail'
 
 export default function Home() {
