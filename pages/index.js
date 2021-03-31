@@ -4,7 +4,7 @@ import {
   List,
 } from 'semantic-ui-react'
 import {useState} from 'react'
-import {peoples} from './data'
+import people from './data'
 import Detail from '../components/Detail'
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
       <Grid.Column>
         <Header size="medium">Name List</Header>
         <List>
-          {peoples.map(e => 
+          {people.map(e => 
             <List.Item key={e.id} as="a" onClick={ev => setDetail(e)}>
               {e.name}
             </List.Item>)}

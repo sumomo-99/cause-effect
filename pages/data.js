@@ -1,4 +1,4 @@
-export const peoples = [{
+const people = [{
   "id": 1,
   "name": "Teddie Anton",
   "street": "Katie",
@@ -69,3 +69,5 @@ export const peoples = [{
   "country": "Mauritius",
   "avator": "https://robohash.org/veritatisiurequasi.png?size=100x100&set=set1"
 }]
+
+export default people
